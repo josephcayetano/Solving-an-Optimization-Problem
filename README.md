@@ -6,7 +6,7 @@ This project solves a multi-echelon supply chain optimization problem for a logi
 - Built a linear programming model (Python, PuLP) with decision variables for multi-leg shipping routes; minimized total cost to ~$199,476 while satisfying all constraints.
 - Defined and enforced constraints for hub capacity, focus city capacity, flow balance, and fulfillment center demand to ensure realistic logistics planning.
 - Validated the solution by analyzing the solver’s output (optimal status) and confirming that all capacity and demand requirements were met, with active routes and shipment amounts detailed.
-- 
+
 ### Files
 1. README.md - A file describing other files in this repository.
 
