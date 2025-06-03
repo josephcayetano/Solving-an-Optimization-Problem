@@ -1,4 +1,4 @@
-# D605-All-Tasks-Solving-an-Optimization-Problem
+# Solving an Optimization Problem
 ### Overview
 This project solves a multi-echelon supply chain optimization problem for a logistics network. Using linear programming, the goal was to minimize total transportation costs while meeting fulfillment center demand and adhering to capacity constraints at hubs and focus cities.
 
