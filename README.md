@@ -1,11 +1,11 @@
 # Solving an Optimization Problem
 ### Overview
-This project solves a multi-echelon supply chain optimization problem for a logistics network. Using linear programming, the goal was to minimize total transportation costs while meeting fulfillment center demand and adhering to capacity constraints at hubs and focus cities.
+This project solved a supply chain problem for a logistics network using linear programming. The goal was to reduce transportation costs while meeting demand and staying within capacity limits at hubs and cities.
 
 ### Optimization - Amazon Air case study
-- Built a linear programming model (Python, PuLP) with decision variables for multi-leg shipping routes; minimized total cost to ~$199,476 while satisfying all constraints.
-- Defined and enforced constraints for hub capacity, focus city capacity, flow balance, and fulfillment center demand to ensure realistic logistics planning.
-- Validated the solution by analyzing the solver’s output (optimal status) and confirming that all capacity and demand requirements were met, with active routes and shipment amounts detailed.
+- Built a linear programming model in Python (using PuLP) to plan multi-leg shipping routes and cut costs to about $199,476
+- Set up constraints for hub and city capacity, flow balance, and demand at fulfillment centers
+- Verified the solution by checking the solver’s output and confirming that all requirements were met, with clear routes and shipment amounts shown
 
 ### Files
 1. README.md - A file describing other files in this repository.
